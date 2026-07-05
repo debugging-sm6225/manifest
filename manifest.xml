@@ -6,36 +6,29 @@
 
   <!-- Device Tree -->
   <project
-      name="nexy-s-playground/android_device_xiaomi_spes"
+      name="debugging-sm6225/android_device_xiaomi_spes"
       path="device/xiaomi/spes"
       remote="me"
       revision="axion" />
 
   <!-- Kernel -->
   <project
-      name="knyplaygrnd/android_device_xiaomi_spes-kernel"
-      path="device/xiaomi/spes-kernel"
+      name="xiaomi-spes-devs/android_device_xiaomi_spes-kernel"
+      path="kernel/xiaomi/sm6225"
       remote="me"
-      revision="sixteen-qpr2" />
+      revision="lineage-23.2" />
 
   <!-- Vendor Blobs -->
   <project
-      name="knyplaygrnd/android_vendor_xiaomi_spes"
+      name="xiaomi-spes-devs/android_vendor_xiaomi_spes"
       path="vendor/xiaomi/spes"
       remote="me"
-      revision="sixteen-qpr2" />
+      revision="lineage-23.2" />
 
-    <!-- Hardware ximi -->
+  <!-- Hardware ximi -->
   <project
-      name="PixelOS-AOSP/android_hardware_xiaomi"
+      name="lineageos/android_hardware_xiaomi"
       path="hardware/xiaomi"
-      revision="sixteen-qpr2"
+      revision="lineage-23.2"
       remote="me" />
-
-  <!-- XiaomiParts -->
-  <project
-      name="nexy-s-playground/packages_apps_XiaomiParts"
-      path="packages/apps/XiaomiParts"
-      remote="me"
-      revision="sixteen-qpr2" />
 </manifest>
